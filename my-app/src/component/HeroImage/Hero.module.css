@@ -1,0 +1,95 @@
+.wrapper {
+  width: 100vw;
+  height: 85vh;
+  background-color: var(--color-black);
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.para1 {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 147.523%; /* 97.365px */
+}
+.para2 {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.523%;
+}
+.text2 {
+  width: 560px;
+  height: 99px;
+  flex-shrink: 0;
+}
+.para3 {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+  opacity: 0.3;
+}
+
+.text {
+  width: 574px;
+  height: 194px;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 438px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 43px;
+
+  background-color: #292929;
+  position: relative;
+  z-index: 1;
+}
+
+.mailBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  left: 26px;
+  top: 26px;
+  z-index: 10;
+}
+
+.mailText {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+}
+
+.talkButton {
+  width: 137px;
+  height: 62px;
+  flex-shrink: 0;
+  border-radius: 43px;
+  background: #e3b748;
+  position: absolute;
+  left: 295px;
+  top: 6px;
+}
+
+.imageWrapper {
+  width: 467.71px;
+  height: 467.71px;
+  flex-shrink: 1;
+  border-radius: 55px;
+  background: #ff8934;
+}

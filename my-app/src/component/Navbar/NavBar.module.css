@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: var(--color-black) !important;
+}
+
+.button {
+  width: 172px !important;
+  height: 47px !important;
+  flex-shrink: 0;
+  border: 2px solid #fff !important;
+  color: var(--color-white) !important;
+}
